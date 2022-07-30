@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="7">TEST</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td style="border: 2px solid;"></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td colspan="2" rowspan="2" class="q">4ALL</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td rowspan="2" class="w">2All</td>
+        <td colspan="2" rowspan="3" class="g" style="background: white;border: 2px solid;"></td>
+        <td style="background: white;border: 2px solid;"></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td style="background: white;border: 2px solid;"></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td></td>
+        <td style="background: white;border: 2px solid;"></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="r">FINI<span class="sh">SH</span></td>
+        <td class="t">Star<span class="m">t</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="background: white;border: 2px solid;"></td>
+    </tr>
+</table>
+<style>
+    .g{
+        background-color: #ffffff;
+    }
+    .t{
+        background-color: #9900ff;
+        color: #46d2ff;
+        text-align: left;
+    }
+
+    .r{
+        background-color: #00ff01;
+        text-align: left;
+    }
+
+    td:empty{
+        background-color: red;
+    }
+
+    td:nth-child(1){
+        border: 2px solid #111;
+        background-color: #6d9eeb;
+        text-align: right;
+    }
+
+    .m{
+        font: 13px Arial;
+        color: #46d2ff;
+    }
+
+    span{
+        font: 13px Arial;
+        color: white;
+    }
+
+    .q{
+        border: 3px solid black;
+        font-size: 24px;
+    }
+
+    .w{
+        color: white;
+        background-color: yellow;
+        font-size: 16px;
+    }
+
+    th, td {
+        text-align: center;
+        font: bold 16px Arial;
+        border: 3px solid black;
+    }
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    td {
+        width: 150px;
+        height: 30px;
+        border: none;
+    }
+
+    td:only-child{
+        text-align: center;
+        border: 3px solid #111;
+        font: bold 24px Arial;
+        color: #fff;
+        background-color: #ffff00;
+    }
+</style>
+</body>
+</html>
