@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Complex flexbox example</title>
+</head>
+<body>
+<div class="heder">
+    <div class="header_section">
+        <div class="header_item headerlogo">
+            WDB
+        </div>
+        <div class="header_item headerButton">
+            <a href="">Новини</a>
+        </div>
+        <div class="header_item headerButton">
+            <a href="">Події</a>
+        </div>
+        <div class="header_item headerButton">
+            <a href="">Лайхак</a>
+        </div>
+        <div class="header_item headerButton">
+            <a href="">Технології</a>
+        </div>
+        <div class="header_item headerButton">
+            <a href="">Бізнес</a>
+        </div>
+    </div>
+        <div class="header_section">
+            <div class="header_item headerButton">
+                <a href="">Налаштування</a>
+            </div>
+            <div class="header_item headerButton">
+                <a href="">Вхід</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .heder {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background: #689CD2;
+        color: #fff;
+        font-family: Uni Sans;
+    }
+
+    .header_section {
+        display: flex;
+        align-items: center;
+    }
+
+    .header_item {
+        padding: 10px 15px;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .header_item:hover {
+        background-color: #ff9900;
+        border-radius: 4px;
+    }
+
+    .headerlogo {
+        font-weight: bold;
+    }
+
+    .headerButton {
+        cursor: pointer;
+    }
+</style>
+
+
+</body>
+</html>
